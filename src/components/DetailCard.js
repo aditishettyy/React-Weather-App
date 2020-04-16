@@ -4,7 +4,7 @@ function DetailComp(props) {
     let temp = "contentRecord col-md-"+props.width
     return (
         <div className={temp}>
-            <h4>{props.label} <em>{props.value}</em></h4>
+            <h6>{props.label} <em>{props.value}</em></h6>
             <hr></hr>
         </div>
     )
