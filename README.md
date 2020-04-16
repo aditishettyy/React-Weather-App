@@ -35,5 +35,11 @@
     
  ## Instructions
  + Git clone this repository
+ + Open the folder - React Weather App
  + npm install
  + npm start
+ 
+ ## Screenshot
+ <p>
+    <img src="screenshots/screenshot1.png"/>
+</p>
