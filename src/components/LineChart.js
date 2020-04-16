@@ -7,7 +7,7 @@ class LineChart extends Component {
     render() {
 		const options = {
                 animationEnabled: true,	
-                
+                height: "320",
 				title:{
                     text: "Weather Forecast for next 7 days",
                     fontColor: "white"

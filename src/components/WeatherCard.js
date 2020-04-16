@@ -55,6 +55,7 @@ class WeatherCard extends Component {
             cityData: data.query.results.channel.location,
             cityCurrentCondition: data.query.results.channel.item.condition,
             weatherForecast: data.query.results.channel.item.forecast,
+            astronomyDetails: data.query.results.channel.astronomy,
             moreDetails: data.query.results.channel
         }, () => this.generateChartData())
     }
@@ -147,6 +148,18 @@ class WeatherCard extends Component {
                                         <DetailCard
                                             label='Pressure:'
                                             value={this.state.moreDetails.atmosphere ? this.state.moreDetails.atmosphere.pressure : null}
+                                            width='4' >
+                                        </DetailCard>
+
+                                        <DetailCard
+                                            label='Sunrise Time:'
+                                            value={this.state.astronomyDetails ? this.state.astronomyDetails.sunrise : null}
+                                            width='4' >
+                                        </DetailCard>
+
+                                        <DetailCard
+                                            label='Sunset Time:'
+                                            value={this.state.astronomyDetails ? this.state.astronomyDetails.sunset : null}
                                             width='4' >
                                         </DetailCard>
                                     </div>
