@@ -1,0 +1,47 @@
+.main {
+    width:100vw; 
+    height:100vh;
+}
+
+.mainCard {
+    background-color: #282c34; 
+    margin: 30px auto;
+    min-height: 940px;
+}
+
+.btn {
+    text-decoration: none !important;
+}
+
+.weatherImage {
+    background-image: url(https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 940px;
+}
+
+.weatherContent {
+    padding: 60px 30px;
+    text-align: left;
+    color: white;
+}
+
+h4 {
+    color: palevioletred;
+}
+
+em {
+    color: whitesmoke;
+}
+
+hr {
+    border-color: wheat !important;
+}
+
+.contentRecord {
+    padding-top: 20px;
+}
+
+.rowChart {
+    padding: 20px 0;
+}
